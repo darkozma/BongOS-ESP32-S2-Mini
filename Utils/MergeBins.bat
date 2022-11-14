@@ -1,0 +1,1 @@
+esptool --chip esp32s2 --port COM3 merge_bin --flash_mode dio --flash_size 4MB 0x1000  ESP32_Server_900u.ino.bootloader.bin 0x8000 ESP32_Server_900u.ino.partitions.bin 0x10000 ESP32_Server_900u.ino.bin -o BongOS.bin
