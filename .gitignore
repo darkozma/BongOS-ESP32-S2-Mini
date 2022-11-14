@@ -1,0 +1,3 @@
+ESP32_Server_900u/build/
+Utils/bin2h/*.h
+Utils/bin2h/*.bin
